@@ -1,0 +1,19 @@
+{
+    "agent": "./react_agent/graph.py:graph",
+    "name": "Web Research Agent",
+    "description": "Helps with web research",
+    "skills": [{
+        "id": "web_research_agent",
+        "name": "Web Research Agent Tool",
+        "description": "Helps with researching about a topic",
+        "tags": ["web research", "deep research"],
+        "examples": ["Is Moon landing real or just US propaganda?"]
+    }],
+    "capabilities": {
+        "streaming": false,
+        "push_notifications": false
+
+    },
+    "input_modes": ["text", "text/plain"],
+    "output_modes": ["text", "text/plain"]
+}
