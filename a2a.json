@@ -1,4 +1,5 @@
 {
+    "framework": "langgraph",
     "agent": "./react_agent/graph.py:graph",
     "name": "Web Research Agent",
     "description": "Helps with web research",
